@@ -1,0 +1,22 @@
+200
+200
+200
+400 - No payload
+200
+200
+200
+404 - User 45 doesn't exist
+200
+200
+404 - Book 500 doesn't exist
+404 - user 1's book list is empty
+405 - Can't POST on list of books
+405 - Need to use PUT if existing entry
+200
+200
+200
+409 - Book 1 is not available
+404 - User 1 does not have book 2
+405 - Can't GET to return
+405 - Can't PUT to return
+200

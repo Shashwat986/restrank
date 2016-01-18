@@ -1,0 +1,23 @@
+GET /books
+POST /books title=How I met your mother&author=Ted Mosby
+POST /books title=Star Wars&author=George Lucas
+POST /users
+POST /users name=Shashwat
+POST /users name=Aakansha
+GET /users/2
+GET /users/45
+GET /users/1/books
+GET /books/1
+GET /books/500
+GET /users/1/books/1
+POST /users/1/books
+POST /books/1 author=Barney Stinson
+PUT /books/1 author=Barney Stinson
+POST /users/1/checkout/1
+GET /users/1/books/1
+POST /users/2/checkout/1
+POST /users/1/return/2
+GET /users/1/return/1
+PUT /users/1/return/1
+POST /users/1/return/1
+quit
